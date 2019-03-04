@@ -27,12 +27,14 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.HotPink
+        Me.Button1.ForeColor = System.Drawing.Color.HotPink
         Me.Button1.Location = New System.Drawing.Point(12, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(776, 426)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Hallo Git!"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Form1
         '
